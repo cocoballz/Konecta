@@ -45,17 +45,18 @@
                                 <label for="entr_title">Cantidad (stock):*</label>
                             </div>
 
-@if($opc !=0)
-<div class="form-floating">
-  <select name="p_status" class="form-select" id="floatingSelect" aria-label="Floating label select example">
-    <option value="1">Activo</option>
-    <option value="0">Inactivo</option>
-  </select>
-  <label for="floatingSelect">Estado del producto</label>
-</div>
-@endif
+                            @if($opc !=0)
+                            <div class="form-floating">
+                                <select name="p_status" class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                    <option value="1">Activo</option>
+                                    <option value="0">Inactivo</option>
+                                </select>
+                                <label for="floatingSelect">Estado del producto</label>
+                            </div>
+                            @endif
 
-<br>
+                            <br>
+                            <a href="{{route('productos')}}" class="btn btn-danger">Volver</a>
                             <button class="btn btn-group-lg" style="background-color: darkseagreen;" type="submit">Guardar</button>
                         </form>
 

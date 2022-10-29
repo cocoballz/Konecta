@@ -10,4 +10,10 @@ class VentaModel extends Model
     use HasFactory;
     protected $table = 'ventas';
     protected $guarded = ['id','created_at','updated_at'];
+
+    public function producto()
+    {
+        return $this->hasOne(ProductoModel::class, 'id','id_producto');
+    }
 }
+    

@@ -23,8 +23,8 @@
                             </div>
 
                             <div class="form-floating">
-                            <textarea  required  class="form-control" placeholder="detalle aqui datos del cliente" name="descripcion" id="descripcion" style="height: 100px">{{ old('descripcion','')}}</textarea>
-                            <label for="descripcion">Descripcion*.</label>
+                                <textarea  required  class="form-control" placeholder="detalle aqui datos del cliente" name="descripcion" id="descripcion" style="height: 100px">{{ old('descripcion','')}}</textarea>
+                                <label for="descripcion">Descripcion*.</label>
                             </div>
                             <hr>
 
