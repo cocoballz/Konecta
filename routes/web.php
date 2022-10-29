@@ -25,7 +25,5 @@ Route::post('/crear_producto',[App\Http\Controllers\StoreController::class,'stor
 
 Route::get('/editar_producto/{entrada}',[App\Http\Controllers\StoreController::class,'edit_products'])->name('editar_producto');
 Route::get('/eliminar_producto/{entrada}',[App\Http\Controllers\StoreController::class,'destroy_products'])->name('eliminar_producto');
-
 Route::get('/vender_producto/{entrada}',[App\Http\Controllers\StoreController::class,'vender_producto'])->name('vender_producto');
-
 Route::post('/venta_products',[App\Http\Controllers\StoreController::class,'venta_products'])->name('venta_products');

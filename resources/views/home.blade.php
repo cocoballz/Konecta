@@ -16,8 +16,8 @@
                     </label>
                     <ul>
                     <li> <a href={{route('productos')}}>Listado de Productos</a></li>
-                    <li> <a href={{route('home')}}>Estidisticas de ventas</a></li>
-                    <li> <a href={{route('home')}}>Estidisticas de Productos</a></li>
+                    <li> <a href={{route('add_product')}}>Crear Nuevos Productos</a></li>
+                    <li> <a href={{route('home')}}>Estidisticas </a></li>
                     </ul>
 
 
